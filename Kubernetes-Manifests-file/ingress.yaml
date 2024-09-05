@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: rkdevops.shop
+    - host: myapp.local
       http:
         paths:
           - path: /api
